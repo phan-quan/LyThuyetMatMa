@@ -5,7 +5,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-from aes128.aes128 import aes128_encrypt, aes128_decrypt
+from aes128.aes import aes128_encrypt, aes128_decrypt
 from TestVectors.aes_test_vectors import AES_TEST_VECTORS
 def check_state(lines: list, name: str, actual: str, expected: dict) -> bool:
     if name in expected:

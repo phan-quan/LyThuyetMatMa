@@ -1,1 +1,1 @@
-from .aes128 import aes128_encrypt, aes128_decrypt
+from .aes import aes128_encrypt, aes128_decrypt
